@@ -47,6 +47,10 @@ body {
   background-color: #fff;
   color: #000; }
 
+
+  .left {
+    text-align: left;
+  }
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/

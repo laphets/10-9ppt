@@ -43,16 +43,22 @@ body {
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6 {
+.reveal h6,
+.reveal .title {
   margin: 0 0 20px 0;
   color: #fff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
+
+.reveal .title {
+  font-weight: 100;
+  font-size: 1.8em;
+}
 
 .reveal h1 {
   font-size: 2.5em; }
