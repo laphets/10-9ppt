@@ -12,6 +12,9 @@ body {
   background: #111;
   background-color: #111; }
 
+.left {
+  text-align: left; }
+
 .reveal {
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
@@ -41,16 +44,25 @@ body {
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6 {
+.reveal h6,
+.reveal .title,
+.reveal .subtitle {
   margin: 0 0 20px 0;
   color: #eee;
   font-family: "Montserrat", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: -0.03em;
-  text-transform: none;
   text-shadow: none;
   word-wrap: break-word; }
+
+.reveal .title {
+  font-weight: 100;
+  font-size: 1.4em; }
+
+.reveal .subtitle {
+  font-weight: 100;
+  font-size: 0.9em !important; }
 
 .reveal h1 {
   font-size: 3.77em; }
